@@ -31,22 +31,22 @@ function App() {
             img="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           />
           <Employee
-            name="Ron"
-            role="intern"
+            name="Haley"
+            role="HR"
             img="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           />
           <Employee
-            name="Abby"
+            name="Alexis"
             role={role}
             img="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           />
           <Employee
-            name="Alex"
-            role="DevOps"
+            name="Mike"
+            role="DevRel"
             img="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           />
           <Employee
-            name="Ron"
+            name="Bob"
             role="intern"
             img="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           />
