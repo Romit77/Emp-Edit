@@ -4,7 +4,9 @@ import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 function App() {
+  // eslint-disable-next-line
   let [role, setRole] = useState("dev");
+  // eslint-disable-next-line
   const [employees, setEmployees] = useState([
     {
       name: "Caleb",
@@ -33,14 +35,14 @@ function App() {
     },
     {
       name: "Mike",
-      role: "Sr Intern",
+      role: "DevRel engineer",
       img: "https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=300",
     },
-    {
-      name: "Alexis",
-      role: "HR",
-      img: "https://images.pexels.com/photos/1181726/pexels-photo-1181726.jpeg?auto=compress&cs=tinysrgb&w=300",
-    },
+    // {
+    //   name: "Alexis",
+    //   role: "HR",
+    //   img: "https://images.pexels.com/photos/1181726/pexels-photo-1181726.jpeg?auto=compress&cs=tinysrgb&w=300",
+    // },
   ]);
 
   return (
