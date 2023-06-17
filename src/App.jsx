@@ -3,6 +3,7 @@ import Employee from "./Components/Employee";
 import { useState } from "react";
 //eslint-disable-next-line
 import { v4 as uuidv4 } from "uuid";
+import AddEmployee from "./Components/AddEmployee";
 
 function App() {
   // eslint-disable-next-line
@@ -64,6 +65,17 @@ function App() {
     setEmployees(UpdatedEmployees);
   }
 
+  function newEmployee(name, role, img) {
+    //eslint-disable-next-line
+    newEmployee = {
+      id: uuidv4(),
+      name: name,
+      role: role,
+      img: img,
+    };
+    setEmployees([...employees, newEmployee]);
+  }
+
   return (
     <div>
       <>
@@ -88,6 +100,7 @@ function App() {
             );
           })}
         </div>
+        <AddEmployee newEmployee={newEmployee} />
       </>
     </div>
   );
